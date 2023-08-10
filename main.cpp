@@ -118,9 +118,12 @@ void drawModel(const std::vector<glm::vec3>& vertices, const std::vector<Face>& 
             const glm::vec3& posA = vertices[vertexIdx[0]];
             const glm::vec3& posB = vertices[vertexIdx[1]];
             const glm::vec3& posC = vertices[vertexIdx[2]];
-            Vertex A(posA.x, posA.y, posA.z);
-            Vertex B(posB.x, posB.y, posB.z);
-            Vertex C(posC.x, posC.y, posC.z);
+
+            // Invertir coordenadas Y antes de dibujar
+            Vertex A(posA.x, -posA.y, posA.z);
+            Vertex B(posB.x, -posB.y, posB.z);
+            Vertex C(posC.x, -posC.y, posC.z);
+
             triangle(A, B, C);
         }
     }
