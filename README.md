@@ -3,4 +3,4 @@ Para este laboratorio realizamos ilustraciones de modelos 3D a través de una ve
 Para ello se realizó primero la prueba con un modelo sencillo como la de un cubo con caras trianguladas, el cual se muestra a continuación: <br><br>
 ![image](https://github.com/LINDAINES213/SR1-Carga_de_Modelos/assets/77686175/3456f5f0-b43b-4c62-9897-8a6077bc6e93)<br><br>
 Luego nosotros mismos realizamos un modelo 3D de una nave espacial en Blender, donde luego la exportamos como archivo OBJ y al cargarla en el programa quedó de la siguiente manera (vista desden el frente): <br><br>
-![image](https://github.com/LINDAINES213/SR1-Carga_de_Modelos/assets/77686175/50e72f99-93fe-4cd1-8f90-c9702a81f4bf)<br><br>
+![image](https://github.com/LINDAINES213/SR1_Carga_de_Modelos/assets/77686175/90521262-6fa8-400a-8dcf-c51eef2486ce)
